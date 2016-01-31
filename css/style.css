@@ -10,9 +10,12 @@ header {
 	text-shadow: 5px 5px 5px gray;
 }
 
+form {
+	text-align: center;
+}
+
 input {
-	display: block;
-	margin: 0 auto;
+	display: inline-block;
 	width: 300px;
 	height: 40px;
 	font-size: 20px;
@@ -20,11 +23,12 @@ input {
 }
 
 button {
-	display: block;
+	display: inline-block;
 	height: 40px;
 	font-size: 20px;
+	font-weight: bold;
 	padding: 5px;
-	margin: 0 auto;
+	margin-left: 5px;
 	font-family: Helvetica;
 	border-radius: 4px;
 }
@@ -47,6 +51,9 @@ img {
 	width: 20px;
 	margin-left: 10px;
 }
+/*
+#todo-list li img {
+}*/
 
 ul {
 	text-align: center;
@@ -58,5 +65,7 @@ li {
 	font-family: Baskerville;
 	font-weight: bold;
 	margin-bottom: 8px;
+	height: 30px;
+
 }
 

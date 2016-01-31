@@ -14,4 +14,6 @@ $('ul').on('click', 'li img', function() {
 	$(this).parent().remove();
 });
 
+$('ul').sortable();
+
 });
